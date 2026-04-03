@@ -347,6 +347,13 @@ coder:
     #     matchLabels:
     #       app.kubernetes.io/instance: coder
 
+  # coder.hostAliases -- Additional entries to inject into the pod's /etc/hosts.
+  # See: https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/
+  hostAliases: []
+  # - ip: "127.0.0.1"
+  #   hostnames:
+  #     - "coder.example.com"
+
   # coder.tolerations -- Tolerations for tainted nodes.
   # See: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   tolerations:
