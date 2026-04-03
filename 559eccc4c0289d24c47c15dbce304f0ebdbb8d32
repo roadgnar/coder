@@ -1,0 +1,25 @@
+helm/coder/values.yaml
+  24bfaf38a47c360c 350-356
+helm/libcoder/templates/_coder.yaml
+  24bfaf38a47c360c 62-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "559eccc4c0289d24c47c15dbce304f0ebdbb8d32",
+  "prompts": {
+    "24bfaf38a47c360c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e2564be5-f14a-4925-9c7f-eeebc989f206",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Alex Ball",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 0,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}
