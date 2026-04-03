@@ -1,0 +1,25 @@
+helm/libcoder/Chart.yaml
+  24bfaf38a47c360c 7-8
+helm/coder/Chart.yaml
+  24bfaf38a47c360c 13-14,33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "c56933f5c462adee7914376df74ce567fd97914a",
+  "prompts": {
+    "24bfaf38a47c360c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e2564be5-f14a-4925-9c7f-eeebc989f206",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Alex Ball",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 5,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    }
+  }
+}
